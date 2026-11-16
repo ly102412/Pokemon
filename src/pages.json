@@ -1,0 +1,62 @@
+{
+	"pages": [
+		{
+			"path": "pages/dex/list",
+			"style": {
+				"navigationBarTitleText": "宝可梦图鉴",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+			"path": "pages/tools/type-chart",
+			"style": {
+				"navigationBarTitleText": "属性克制"
+			}
+		},
+		{
+			"path": "pages/user/center",
+			"style": {
+				"navigationBarTitleText": "我的图鉴"
+			}
+		},
+		{
+			"path": "pages/dex/detail",
+			"style": {
+				"navigationBarTitleText": "图鉴详情"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#8a8f99",
+		"selectedColor": "#EE1515",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/dex/list",
+				"text": "图鉴",
+				"iconPath": "static/tabbar/dex.png",
+				"selectedIconPath": "static/tabbar/dex-active.png"
+			},
+			{
+				"pagePath": "pages/tools/type-chart",
+				"text": "克制",
+				"iconPath": "static/tabbar/chart.png",
+				"selectedIconPath": "static/tabbar/chart-active.png"
+			},
+			{
+				"pagePath": "pages/user/center",
+				"text": "我的",
+				"iconPath": "static/tabbar/user.png",
+				"selectedIconPath": "static/tabbar/user-active.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "宝可梦图鉴",
+		"navigationBarBackgroundColor": "#EE1515",
+		"backgroundColor": "#f4f5f7"
+	}
+}

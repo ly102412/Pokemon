@@ -1,0 +1,26 @@
+{
+    "name" : "宝可梦图鉴",
+    "appid" : "",
+    "description" : "宝可梦图鉴小程序：图鉴浏览 / 收藏捕捉 / 属性克制查询",
+    "versionName" : "0.1.0",
+    "versionCode" : "1",
+    "transformPx" : false,
+    "app-plus" : {
+        "usingComponents" : true
+    },
+    "mp-weixin" : {
+        "appid" : "",
+        "cloudfunctionRoot" : "cloudfunctions/",
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : true,
+            "postcss" : true,
+            "minified" : true
+        },
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vueVersion" : "3"
+}
